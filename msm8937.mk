@@ -389,3 +389,7 @@ PRODUCT_COPY_FILES += \
 # GCam Go
 PRODUCT_PACKAGES += \
     GCam
+
+# Signapk
+PRODUCT_HOST_PACKAGES += \
+    signapk
