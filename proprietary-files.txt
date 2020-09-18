@@ -708,9 +708,6 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0.so
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0.so
 vendor/radio/qcril_database/qcril.db
 
-# Radio - from LA.UM.8.6.r1-01900-89xx.0
-product/framework/qti-telephony-common.jar
-
 # Sensors - from TA-1024 - PKQ1.181105.001
 -framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 lib/vendor.qti.hardware.sensorscalibrate@1.0.so

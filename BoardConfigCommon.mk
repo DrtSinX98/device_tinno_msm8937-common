@@ -206,9 +206,6 @@ ifneq ($(TARGET_BUILD_VARIANT),user)
 SELINUX_IGNORE_NEVERALLOWS := true
 endif
 
-# Telephony Jar
-TARGET_PROVIDES_QTI_TELEPHONY_JAR := true
-
 # Treble
 TARGET_COPY_OUT_VENDOR := system/vendor
 
