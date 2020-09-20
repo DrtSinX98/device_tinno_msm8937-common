@@ -34,6 +34,15 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
+# Kernel
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+  PREBUILT_KERNEL := $(LOCAL_PATH)/prebuilt/kernel
+else
+  PREBUILT_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+
+PRODUCT_COPY_FILES += $(PREBUILT_KERNEL):kernel
+
 # Dalvik Heap overrides
 PRODUCT_PROPERTY_OVERRIDES += \
     dalvik.vm.heapminfree=4m \
